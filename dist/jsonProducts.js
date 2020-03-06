@@ -1,0 +1,60 @@
+const shoesJson = {
+  "shoes": {
+    "1": {
+      "id": 1,
+      "name": "Oxford c/ salto Chocolate Lorem ipsum",
+      "image": "product-1.png",
+      "price": 899.99,
+      "portion": 10,
+      "in": 89.99,
+    },
+    "2": {
+      "id": 2,
+      "name": "Oxford c/ salto Chocolate Lorem ipsum",
+      "image": "product-2.png",
+      "price": 290.85,
+      "portion": 3,
+      "in": 96.95,
+    },
+    "3": {
+      "id": 3,
+      "name": "Oxford c/ salto luxo Lorem ipsum",
+      "image": "product-3.png",
+      "price": 378.49,
+      "portion": 4,
+      "in": 94.62,
+    },
+    "4": {
+      "id": 4,
+      "name": "Oxford c/ salto luxo top edition",
+      "image": "product-4.png",
+      "price": 1112.49,
+      "portion": 12,
+      "in": 92.70,
+    },
+    "5": {
+      "id": 5,
+      "name": "Oxford c/ salto Chocolate Lorem ipsum",
+      "image": "product-2.png",
+      "price": 290.85,
+      "portion": 3,
+      "in": 96.95,
+    },
+    "6": {
+      "id": 6,
+      "name": "Oxford c/ salto luxo Lorem ipsum",
+      "image": "product-3.png",
+      "price": 378.49,
+      "portion": 4,
+      "in": 94.62,
+    },
+    "7": {
+      "id": 7,
+      "name": "Oxford c/ salto Chocolate Lorem ipsum",
+      "image": "product-1.png",
+      "price": 899.99,
+      "portion": 10,
+      "in": 89.99,
+    },
+  }
+}

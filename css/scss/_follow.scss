@@ -1,0 +1,25 @@
+section.follow-us {
+  margin: 35px 0;
+  div.title-follow {
+    text-align: center;
+    margin: 20px 0;
+    h3 {
+      font-size: 25px;
+    }
+    p {
+      font-size: 14px;
+      margin: 15px 0;
+    }
+  }
+  ul {
+    display: flex;
+    width: 100%;
+    li {
+      width: 20%;
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}

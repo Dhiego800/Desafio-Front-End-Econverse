@@ -1,0 +1,20 @@
+main{
+  section.about{
+    width: 75%;
+    margin: 0 auto;
+
+    h3 {
+      font-size: 22px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    p{
+      text-align: center;
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}

@@ -1,0 +1,66 @@
+section.main-banners{
+  ul.content-banners{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    li{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 8px;
+      width:329px;
+      color: #fff;
+      text-transform: uppercase;
+      background-repeat: no-repeat;
+      background-size: contain;
+      .title-banner{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        h2{
+          font-size: 50px;
+        }
+        p{
+          font-size: 15px;
+        }
+      }
+      a {
+        font-size: 22px;
+        border: 1px solid #fff;
+        width: 50%;        
+        padding: 10px;
+      }
+      @media (max-width: 768px){
+        width: 90%!important;
+        min-height: 331px;
+        margin: 10px 0!important;        
+      }
+    }
+    li.banner-left{
+      margin-top: 90px;
+      height: 432px;
+      background-image: url('/img/melhores-tenis.png');
+      @media (max-width: 768px){
+        height: auto;
+       }
+    }
+    li.banner-middle{
+      height: 432px;
+      background-image: url('/img/imperdiveis.png');
+      @media (max-width: 768px){
+        height: auto;
+      }
+    }
+    li.banner-right{
+      margin-top: 90px;
+      height: 432px;
+      background-image: url('/img/new-colecao.png');
+      @media (max-width: 768px){
+        height: auto;
+      }
+    }
+  }
+}
