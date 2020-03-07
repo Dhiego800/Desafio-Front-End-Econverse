@@ -171,7 +171,8 @@ header {
     background-position: 0% 50%; } }
 
 .menu-mobile-active {
-  display: block !important; }
+  display: block !important;
+  z-index: 500; }
 
 main section.about {
   width: 75%;
@@ -187,6 +188,75 @@ main section.about {
     text-align: center;
     font-size: 14px;
     line-height: 20px; }
+
+section.home-banner {
+  text-transform: uppercase;
+  color: #fff; }
+  section.home-banner div.banner {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90%; }
+  section.home-banner div.banner-primary {
+    position: absolute;
+    background-image: url("img/home-main-banner.png");
+    height: 670px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    top: 140px;
+    left: 10%;
+    width: 80%; }
+  section.home-banner div.banner-secondary {
+    background-image: url("img/home-main-banner-2.png");
+    height: 640px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 45px; }
+  section.home-banner div.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    text-align: center;
+    transform: translateX(190%); }
+    section.home-banner div.description h1 {
+      font-size: 60px;
+      letter-spacing: 6.5px;
+      font-weight: 800; }
+    section.home-banner div.description h2 {
+      font-size: 18px; }
+    section.home-banner div.description p {
+      margin: 30px 0; }
+    section.home-banner div.description ul {
+      display: flex; }
+      section.home-banner div.description ul li a {
+        font-size: 16px;
+        display: block;
+        border: 1px solid #fff;
+        padding: 10px;
+        margin-left: 10px;
+        width: 170px; }
+        @media (max-width: 768px) {
+          section.home-banner div.description ul li a {
+            min-width: 150px; } }
+  section.home-banner div.btns {
+    display: flex;
+    width: 100px;
+    position: absolute;
+    right: 119px;
+    bottom: 80px; }
+    section.home-banner div.btns button {
+      display: block;
+      margin-left: 10px;
+      color: #fff;
+      font-size: 20px;
+      border: 1px solid #fff;
+      padding: 10px;
+      background: none; }
 
 section.main-collections ul.list-collections {
   display: flex;
